@@ -1,0 +1,26 @@
+// CMS Script File
+//
+//     Game Title: X-Wing Alliance
+//     Written By: Imre Koszo 'Ngetal'
+//           Date: 2015-07
+//
+script
+
+//
+// This will make the X axis a true Yaw axis
+// for starfighters as by default those only
+// have Roll (R) and Bank (X) (Yaw + half Roll) axes
+//
+// It operates by creating a counter-roll half as
+// strong as the current Bank value.
+//
+// For it to work, make CMS.A1 your R axis.
+//
+
+%define ROLL JS1.A1
+%define BANK JS2.A1
+%define ADJUSTED_ROLL CMS.A1
+
+ADJUSTED_ROLL = ROLL + 64 - (BANK / 2);
+
+endScript

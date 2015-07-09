@@ -1,0 +1,184 @@
+// CMC Command File
+//
+//     Game Title: X-Wing Alliance
+//     Written By: Michael Sexton
+//           Date: 2004-02-17
+//
+
+// Game Controls
+//
+Quit							           				q SPC
+Restart_Mission							    		h SPC
+
+// Flight Controls
+//
+Roll_Left									    	KP1
+Roll_Right								  		KP6
+Increase_Throttle								=
+Decrease_Throttle								-
+Full_Stop									    	\
+1/3_Throttle							   		[
+2/3_Throttle							   		]
+Match_Target's_Speed						ENT
+Full_Throttle						   			BKSPC
+Engage_Hyperspace								SPC SPC
+Toggle_S-Foil						   			v
+
+// Pilot Safety Controls
+//
+Jump_to_New_Craft								j
+EJECT									      		ALT e
+
+// Energy Management Controls
+Adjust_Beam-Weapon_Recharge_Rate_Up			F8
+Adjust_Beam-Weapon_Recharge_Rate_Down		F8 F8 F8 F8
+Adjust_Laser-Cannon_Recharge_Rate_Up		F9
+Adjust_Laser-Cannon_Recharge_Rate_Down  F9 F9 F9 F9
+Adjust_Shields_Recharge_Rate_Up			   	F10
+Adjust_Shields_Recharge_Rate_Down			  F10 F10 F10 F10
+Transfer_Energy_Laser-to-Shields				'
+Transfer_All_Energy_Laser-to-Shields		"
+Transfer_Energy_Shields-to-Lasers				;
+Throttle/Energy_Preset_#1				     		F11
+Set_Throttle/Energy_Preset_#1			  		SHF F11
+Throttle/Energy_Preset_#2					    	F12
+Set_Throttle/Energy_Preset_#2				   	SHF F12
+
+// Shield System Controls
+//
+Cycle_Shield_Settings							s
+Rebalance_shields   							s s s
+
+// Weapon System Controls
+//
+Switch_Weapons									w
+Switch_Firing-Linking_Modes			x
+Cycle_Gun_Harmonization_Modes		z
+Toggle_Beam_Weapon_On/Off				b
+Fire_Countermeasure							c
+Fire_Weapon									  	ALT 2
+
+// Targeting and CMD System Controls
+//
+Target_Nearest_Starfighter				      		r
+Target_Craft_Nearest_Craft_Targeting_You		e
+Next_Target									              	t
+Previous_Target					            				y
+Target_Newest_Craft					          			u
+Target_Nearest_Incoming_Warhead		     			i
+Target_Nearest_Objective				        		o
+Target_Attacker_of_Target				         		a
+Target_Nearest_Player_Craft				       		p
+Cycle_NAV_Buoys						             			n
+Next_Friendly						               			F1
+Previous_Friendly				             				SHF F1
+Next_Neutral						              			F2
+Previous_Neutral			             					SHF F2
+Next_Enemy						              				F3
+Previous_Enemy					             				SHF F3
+Preset_Target_#1					             			F5
+Save_as_Preset_Target_#1		        				SHF F5
+Preset_Target_#2						            		F6
+SAve_as_Preset_Target_#2		        				SHF F6
+Preset_Target_#3					             			F7
+Save_as_Preset_Target_#3		        				SHF F7
+Cycle_Targets_Components				        		,
+Cycle_Backwards_Targets_Components	   			<
+Select_Target_In-sight			         				ALT 1
+Clear_CMD								                 		ALT c
+
+// Gun Turret Controls
+//
+Switch_Pilot/Gunner_Positions			      		g
+Cycle_Pilot/Gunner_AI_Settings		    			f
+
+// Communications Controls
+//
+Chat								                  			SHF TAB
+Cancel_Chat						               				ESC
+Cycle_Chat_to_Team/Enemy/All		      			TAB
+Confirm_Critical_Orders			        				SPC
+Custom_Message_#1					            			SHF 1
+Custom_Message_#2				             				SHF 2
+Custom_Message_#3				             				SHF 3
+Custom_Message_#4				             				SHF 4
+
+// In-Flight Map Controls
+//
+Toggle_Map							               			m
+
+// HUD Pop-Up Controls
+//
+Left_MFD_Open/Highlight/Close_Toggle			KBDEL
+Right_MFD_Open/Highlight/Close_Toggle			KBPGDN
+CMD_Open/Close_Toggle		         					KBEND
+Scroll_Up_on_MFD				           				KBUP
+Scroll_Down_on_MFD				        				KBDOWN
+Scroll_Forward_on_MFD			        				KBRIGHT
+Scroll_Backwards_on_MFD					      		KBLEFT
+Select_Command_on_MFD                     KPENT
+Forward-Sensor/Shield-Indicator_On/Off		KBINS
+Middle_HUD_On/Off						           		KBHOME
+Rear-Sensor_On/Off				        				KBPGUP
+HUD_On/Off								            		CTL KBEND
+Simple_HUD_Mode							          		ALT .
+Wingman_Commands_MFD				          		TAB
+
+// Cockpit Controls
+//
+Turns_Cockpit_On/Off				        			.
+Padlock									              		l
+
+// Docking and Pick-Up Controls
+//
+Dock_with_Target						          		D
+Pick_up_Target							           		P
+Release_Cargo							            		R
+
+// Wingman Commands
+//
+Attack_My_Target				          				A
+Ignore_My_Target				          				I
+Cover_Me								               		C
+Wait_For_Orders					          				W
+Go_Ahead									               	G
+Board_to_Reload						           			B
+Evade									                		E
+Head_Home								               		H
+View_Wingman_Commands_MFD						TAB
+Select_Wingman_Command_1						1
+Select_Wingman_Command_2						2
+Select_Wingman_Command_3						3
+Select_Wingman_Command_4						4
+Select_Wingman_Command_5						5
+Select_Wingman_Command_6						6
+Select_Wingman_Command_7						7
+Select_Wingman_Command_8						8
+Select_Wingman_Command_9						9
+Select_Wingman_Command_0						0
+
+// View Controls
+//
+Look_Down								     		KP2
+Look_Left								     		KP4
+Center_View_in_Cockpit					KP5
+Look_Right								   		KP6
+Look_Up										     	KP8
+Toggle_Cockpit_On/Off						KP.
+Toggle_External/Cockpit_View		KP/
+FreeLook									     	KP*
+Fly-By_View								   		ALT j
+Target_Camera							  		ALT u
+Warhead_Camera									ALT n
+Virtual_Cockpit									SCRLK
+
+// Game Controls
+//
+Pause									      		ALT p
+Cycle_Graphics_Details					ALT d
+System_Message_Display_On/Off		ALT s
+Display_Game_Version_Number			ALT v
+
+
+
+
